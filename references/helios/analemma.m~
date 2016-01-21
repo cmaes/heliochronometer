@@ -1,0 +1,69 @@
+function analemma
+%
+% ANALEMMA plots analemma in Figure 9
+%
+
+% Astronomical Constants
+L0  = -77.11;   % Longitude of Perihelion
+e   = 0.01672;  % Numerical Eccentricity
+EPS = 23.44;    % Tilt of Ecliptic
+
+% Graphics
+fontsz   = 18;
+markersz = 24;
+winh = figure('Position',[20,20,460,620],...
+              'PaperUnits','centimeters',...
+              'PaperType','a4letter',...
+              'PaperPosition',[1.5,1.5,14,18]);
+axis([-5 5 -24 24]); hold on;
+
+% Declination Lines
+dec = [23.44 20.15 11.47 0 -11.47 -20.15 -23.44];
+for i=1:length(dec);
+   plot([-5 5],[dec(i) dec(i)],':');
+end
+
+
+% Analemma
+p = pi/180;
+eps = EPS*p;
+L  = 3*p*[-30:90];               % sun's True Longitude
+v  = L - L0*p;                   % True Anomaly
+c  = sqrt((1-e)/(1+e));          % c=tan(arcos(e)/2)
+E  = 2*atan(c*tan(v/2));         % Eccentric Anomaly
+zk = E-e*sin(E)-v;
+x  = [cos(L); 
+      sin(L)*cos(eps);
+      sin(L)*sin(eps)];
+r  = sqrt(x(1,:).^2+x(2,:).^2);
+al = atan2(x(2,:),x(1,:));       % Right Ascension
+d  = atan2(x(3,:),r);            % Declination
+zt = L-al;
+zg = atan(tan(zk+zt));           % Equation of Time
+
+plot(-zg(1:60)/p,-d(1:60)/p,'-');	% December 21 - June 21
+plot(-zg(60:121)/p,-d(60:121)/p,'--');  % June 21 - December 21
+
+
+% Text
+set(gca,'FontSize',fontsz);
+set(gca,'XTick',[-5:5]);
+set(gca,'YTick',
+ylabel('Declination [degree]');
+xlabel('Deviation [degree]');
+% text(0,-22,'<-','FontSize',fontsz);
+% set(gca,'Box','on');
+% zodiac = ['C' 'A' 'P' 'A' 'T' 'G' 'C' 'L' 'V' 'L' 'S' 'S'];
+% text(-3.2,-21.5,'J','FontSize',fontsz);
+% text(-4.2,-16,'F','FontSize',fontsz);
+% text(-3.8,-7,'M','FontSize',fontsz);
+% text(-2,5,'A','FontSize',fontsz);
+% text(1.3,16,'M','FontSize',fontsz);
+% text(1.2,22,'J','FontSize',fontsz);
+% text(-2.5,22,'J','FontSize',fontsz);
+% text(-2,16,'A','FontSize',fontsz);
+% text(1.3,5,'S','FontSize',fontsz);
+% text(4,-7,'O','FontSize',fontsz);
+% text(4.4,-16,'N','FontSize',fontsz);
+% text(3.6,-21.5,'D','FontSize',fontsz);
+hold off;

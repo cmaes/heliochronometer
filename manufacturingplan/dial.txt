@@ -1,0 +1,100 @@
+Dial 
+
+1. Procure Material for Dial 
+   - one piece of 8'' x 8'' x 1/4'' brass plate 
+   - rough sawn on the band saw 
+
+2. Mill Piece to Overall Dimensions 
+
+   Notes: 
+   - measure dimension with workpiece in vice 
+   - be sure operations result in mutually perpendicular edges
+   - be sure cutter is rotating in proper direction 
+   - do NOT run cutter into vise or parallels !!!
+   - use a file and filecard to deburr rough edges 
+   - always clean collet and spindle before mounting tool 
+
+
+   A. Mill ends to dimension 
+      - use a 3/4'' or 5/8'' end mill 
+      - spindle speed ~= 1200 RPM 
+      - maximum depth of cut = 0.025'' 
+      - position work in vise on parallels 
+      - remove parallels before machining
+      - feed by hand... slow, steady feed leaves a good finish 
+      - deburr when finished
+
+    B. Mill sides to dimension
+       - use a 3/4'' or 5/8'' end mill 
+       - spindle speed ~= 1200 RPM 
+       - position vise on parallels 
+       - remove paralled before machining 
+       - deburr when finished
+
+3. Prepare workpiece for Lathe 
+   A. Use edge-finder to locate center of workpiece
+      - use edge finder in keyless chuck to locate center 
+      - clockwise rotation of milling machine handwheel will move the table AWAY from you (right hand rule)
+      - stop feed once edge-finder jumps, or it will break
+      - radius of edge-finder is 0.100'' 
+      - spindle speed ~= 800 RPM
+  
+   B. Drill center through hole
+      - remove edge-finder and insert 1/2'' end mill
+      - spindle speed ~= 1200 RPM
+      - do not drill into vise or parallels 
+
+3. Turn outside diameter  
+   A. Mount workpiece in lathe 
+      - use scrap piece in 3-jaw chuck 
+      - place dead center in through hole 
+   B. Turn outside diameter
+      - spindle speed ~= 400 RPM (never turn 
+      3-jaw chuck more than 1000 RPM) 
+      - do not reposition workpiece between operations 
+      - use single point, zero rake, right hand lathe tool
+      - set tool at correct angle for turning - feed will be 
+        from right to left 
+      - use auto feed: first become familiar with feed levers
+      - engage feed gearbox using feed direction selector 
+      - set gearbox to about .004 in/rev using chart, feed selector and fee selector dial 
+      - position longitudinal/cross feed selector to longitudinal feed
+      - to verify the machine is set correctly, use longitudinal wheel and cross feed handle to position carriage far 
+        away from all obstacles 
+      - turn on the spindle and make sure the feed box is turning. 
+      - when the feed bar is turning, engage the auto-feed engaging lever. 
+      - depth of cut is measured on the crossfeed micrometer dial 
+      - maximum depth of cut 0.010'' 
+      - turn stock down to a diameter of 8'' 
+4. Bore inside Diameter 
+   - bore radius out to 7'' and a depth of .125'' -- see drawing
+   - spindle speed ~= 400 RPM 
+   - use internal single point boring bar and cut on the inside surface closest to 
+     you so the material is moving down onto the tool 
+   - make sure spindle is turning in the correct direction 
+   - if you get loud screeching, or your workpiece is not cutting well, you may be 
+     experiencing chatter
+   - measure with calipers to check your work as it progressses, remembering that each cut on 
+     the inside INCREASES the diameter! 
+
+5. Chamfer Internal Diameter and Outside Diameter 
+   - spindle speed ~= 400 RPM 
+   - use single point, zero rake, left hand tool positioned at about 
+     a 45 degree angle to axis of part 
+   - cut both chamfers with the same tool setup as follow: rotate the 
+     spindle towards you and cut at the front of the part for the outer chamfer. 
+     Rotate the spindle away from you and cut on the back of the part for the inner chamfer. 
+     
+6. Cut 60 degree Arc through hole
+   - remove dial from lathe 
+   - procure rotary table 
+   - position dial on rotatry table with table center through dial center
+   - use center-finder in keyless chuck 
+   - use center-finder to locate outer diameter of the dial 
+   - use center-finder to locate the inner diameter of the dial
+   - split the difference to position tool at radius of 3.75''
+   - zero DRO 
+   - lock ways 
+   - remove center finder and insert 1/8'' end mill
+   - cut 60 degree arc in dial by rotating table 
+   - maximum depth of cut .025'' 

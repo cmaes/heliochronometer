@@ -1,0 +1,58 @@
+Foresight 
+
+
+1. Procure Material for Foresight
+   - one piece of  4'' x 1'' x 1/4'' brass plate
+   - rough sawn on the band saw
+
+2. Mill Piece to Overall Dimensions 
+
+   Notes: 
+   - measure dimension with workpiece in vice 
+   - be sure operations result in mutually perpendicular edges
+   - be sure cutter is rotating in proper direction 
+   - do NOT run cutter into vise or parallels !!1
+   - use a file and filecard to deburr rough edges 
+   - always clean collet and spindle before mounting tool 
+
+
+A. Mill ends to dimension 
+  - use a 3/4'' or 5/8'' endmill 
+  - spindle speed ~= 1200 RPM 
+  - maximum depth of cut = 0.025'' 
+  - position work in vise on parallels 
+  - remove parallels before machining
+  - feed by hand... slow, steady feed leaves a good finish 
+  - deburr when finished
+
+B. Mill sides to dimension
+   - use a 3/4'' or 5/8'' endmill 
+   - spindle speed ~= 1200 RPM 
+   - position vise on parallels 
+   - remove paralled before machining 
+   - deburr when finished
+
+3. Drill sighting hole
+
+A. Use edge-finder to locate center of edge of long side
+   - use edge finder in keyless chuck to locate center 
+   - clockwise rotation of milling machine handwheel will move the table AWAY from you (right hand rule)
+   - stop feed once edge-finder jumps, or it will break
+   - radius of edge-finder is 0.100'' 
+   - spindle speed ~= 800 RPM
+
+B. Use edge-finder to locate edge of small side 
+   - same as previous stape. 
+B.  Mill relief hole
+   - remove edge-finder and insert 1/2'' end mill
+   - spindle speed ~= 1200 RPM
+   - center end mill on long side and come in .300'' from edge of small side. 
+   - lock down ways 
+   - Drill to depth of .200'' using knee dial
+
+C.  Drill through hole  pinhole 
+   - remove end mill and insert small collet into keyless chuck 
+     and insert .023'' pinhole drill bit
+   - spindle speed ~= 1400 RPM
+   - do not drill into vise or parallels 
+

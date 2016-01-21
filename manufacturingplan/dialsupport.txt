@@ -1,0 +1,139 @@
+Dial Support 
+
+
+1. Procure Material for Dial Support
+   - one piece of 6'' x 1'' x 1/4'' brass plate
+   - rough sawn on the band saw
+
+2. Mill Piece to Overall Dimensions 
+
+   Notes: 
+   - measure dimension with workpiece in vice 
+   - be sure operations result in mutually perpendicular edges
+   - be sure cutter is rotating in proper direction 
+   - do NOT run cutter into vise or parallels !!!
+   - use a file and filecard to deburr rough edges 
+   - always clean collet and spindle before mounting tool 
+
+
+   A. Mill ends to dimension 
+      - use a 3/4'' or 5/8'' end mill 
+      - spindle speed ~= 1200 RPM 
+      - maximum depth of cut = 0.025'' 
+      - position work in vise on parallels 
+      - remove parallels before machining
+      - feed by hand... slow, steady feed leaves a good finish 
+      - deburr when finished
+
+   B. Mill sides to dimension
+      - use a 3/4'' or 5/8'' end mill 
+      - spindle speed ~= 1200 RPM 
+      - position vise on parallels 
+      - remove paralled before machining 
+      - deburr when finished
+
+3. Drill and tap #4-40 hole 
+   A. Edge find center of workpiece
+      - coat center of workpiece with Dykam
+      - use edge finder in keyless chuck to locate center 
+      - clockwise rotation of milling machine handwheel will move the table AWAY from you (right hand rule)
+      - stop feed once edge-finder jumps, or it will break
+      - radius of edge-finder is 0.100'' 
+      - spindle speed ~= 800 RPM
+  
+   B. Center drill hole 
+      - remove edge-finder and insert center drill 
+      - spindle speed ~= 1400 RPM 
+      - lock down ways 
+      - drill staring hole with center drill
+   
+   C. Drill blind hole 
+      - remove center drill 
+      - insert 1/8'' drill into keyless chuck and drill workpiece using pecking technique
+        with knee, not quill 
+      - spindle speed ~=u 1400 RPM 
+      - drill to depth of .157'' with knee
+         
+   D. Tap threads 
+      - use #4 - 40  tap with tap handle 
+      - taps break vey easily and are expensive, so be careful 
+      - tapping is done by hand with power off 
+      - put tap in the tap handle 
+      - use a center in a collet mounted in the spindle to align tap over hole 
+      - use Tap Magic to lubricate cut 
+      - turn tap handle 3-4 turns while applying slight pressure with the quill 
+      - next, after each 1/2 turn of cutting, back the tap out 3/4 of a turn 
+        to break the chip, being sure to release pressure on the quill while doing so. 
+        Continue advancing the tap until the through hole has been tapped. Remeber that too much 
+        pressure can break the tap, and a broken tap is near impossible to remove from a part. 
+
+
+
+4. Drill and tap 1/4-20 hole 
+   A. Center drill hole 
+      - insert center drill 
+      - spindle speed ~= 1400 RPM 
+      - lock down ways 
+      - drill staring hole with center drill
+   
+   C. Drill through hole 
+      - remove center drill 
+      - insert 1/4'' drill into keyless chuck and drill workpiece using pecking technique
+        with knee, not quill 
+      - spindle speed ~=u 1400 RPM 
+  
+   D. Countersink hole 
+      - remove 1/8'' drill and insert countersink for #4-40 screw
+      - spindle speed ~= 250 RPM 
+      - countersink shoulders just touches workpiece and Dykam disappears
+         
+   E. Tap threads 
+      - use #4 - 40  tap with tap handle 
+      - taps break vey easily and are expensive, so be careful 
+      - tapping is done by hand with power off 
+      - put tap in the tap handle 
+      - use a center in a collet mounted in the spindle to align tap over hole 
+      - use Tap Magic to lubricate cut 
+      - turn tap handle 3-4 turns while applying slight pressure with the quill 
+      - next, after each 1/2 turn of cutting, back the tap out 3/4 of a turn 
+        to break the chip, being sure to release pressure on the quill while doing so. 
+        Continue advancing the tap until the through hole has been tapped. Remeber that too much 
+        pressure can break the tap, and a broken tap is near impossible to remove from a part. 
+
+5. Drill 1/2'' through hole 
+   A. Drill through hole 
+      - insert 1/4'' drill into keyless chuck and drill workpiece using pecking technique
+        with knee, not quill 
+      - spindle speed ~=u 1400 RPM 
+
+
+6. Drill and tap 1/4-20 hole 
+   A. Center drill hole 
+      - insert center drill 
+      - spindle speed ~= 1400 RPM 
+      - lock down ways 
+      - drill staring hole with center drill
+   
+   C. Drill through hole 
+      - remove center drill 
+      - insert 1/4'' drill into keyless chuck and drill workpiece using pecking technique
+        with knee, not quill 
+      - spindle speed ~=u 1400 RPM 
+  
+   D. Countersink hole 
+      - remove 1/8'' drill and insert countersink for #4-40 screw
+      - spindle speed ~= 250 RPM 
+      - countersink shoulders just touches workpiece and Dykam disappears
+         
+   E. Tap threads 
+      - use #4 - 40  tap with tap handle 
+      - taps break vey easily and are expensive, so be careful 
+      - tapping is done by hand with power off 
+      - put tap in the tap handle 
+      - use a center in a collet mounted in the spindle to align tap over hole 
+      - use Tap Magic to lubricate cut 
+      - turn tap handle 3-4 turns while applying slight pressure with the quill 
+      - next, after each 1/2 turn of cutting, back the tap out 3/4 of a turn 
+        to break the chip, being sure to release pressure on the quill while doing so. 
+        Continue advancing the tap until the through hole has been tapped. Remeber that too much 
+        pressure can break the tap, and a broken tap is near impossible to remove from a part. 

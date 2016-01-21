@@ -1,0 +1,35 @@
+*---- Title
+
+Chapter 27. Computing Plane Sundials
+
+*---- MATLAB
+
+main.m
+	script containing commands of this chapter
+
+helios.m
+	plots sundial on a plane, uses project.m and
+	sunset.m
+
+analemma.m
+	plots Analemma in Figure 27.9
+
+project.m
+	function, computes the shadow of the gnomon
+	point onto general plane
+
+realtime.m
+	plot horizontal sundial with hour-lines for
+	local real time, as seen in Figure 27.6
+
+sunset.m
+	function, computes sunset given declination and
+	latitude
+
+vingelz.m
+	specifications of a particular sundial, namely
+	a sundial on a wall of Highway A5 at 
+	2505 Vingelz, Switzerland
+
+zg.m
+	plot equation of time in Figure 27.8

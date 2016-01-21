@@ -1,0 +1,73 @@
+What is a Heliochronometer?
+
+A heliochronometer is a device for measuring \emph{standard time} via
+the position of the sun. While a sundial can only tell real time 
+(which can differ from mean time by as much as 17 minutes), a 
+heliochoronometer contains a mechanical mechanism for converting
+between real time and standard time.  This mechanical mechanism
+is based on the latitude and longitude of the observer as 
+well as an astronomical formula called the Equation of Time. 
+
+The history of the Heliochronometer
+
+The spread of the railoads in the 1880s led to Greenwich mean time
+being adopted in the UK in 1880. However, the BBC did not begin
+broadcasting a time signal until 1924. Thus, there was a need for a
+method of accurately setting clocks and watches all over England to
+Greenwich mean time. This problem was solved by the invention of the
+Heliochronometer by George James Gibbs. Gibbs submitted a patent
+application "Improvement in Apparatus for Indicating Mean Solar
+Time" on May 8th, 1906. 
+
+[Insert Fig 1 of GB190610787]
+
+No more than 1000 heliochronometer were made, and each
+heliochronometer cost the equivalent of $1230 today \cite{
+http://homepage.ntlworld.com/jmikeshaw/page8.html, Mike Shaw,
+PILKINGTON GIBBS HELIOCHRONOMETER}. 
+
+
+
+Design of the Heliochronometer
+
+
+The design of the Heliochronometer was based on pictures of modern
+heliochronometers manufactured by Aten Heliochronometers and Gunning
+Sundials and design plans in Mayall. 
+
+
+@book{mayall,
+author = {Robert Newton Mayall and Margaret W. Mayall},
+title = "Sundials: their construction and use",
+publisher = "Dover",
+year = "2000",
+address = "Mineola, New York",
+isbn = "0-486-41146-X"
+edition = "1st",
+}
+
+
+The dial is held in the plane of the equator by two
+angle blocks built for Palo Alto's latitude. 
+
+[Insert Pic/Drawing of angle blocks]
+
+
+By rotating the dial and tightening the circumference
+screw it is possible to make adjustments for longitutde
+and daylight savings time. Since we are located in Palo
+Alto, whose longitutde is 122 \circ West, and Pacific
+Standard Time is based off a reference meridan of 
+120 \circ West we must adjust the time back 8 minutes
+or rotate the dial 2 \circ backward. 
+
+[Insert Pic of circufermenc arc and screw ]
+
+
+
+
+
+
+
+
+

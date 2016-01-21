@@ -1,0 +1,40 @@
+Dial Support Angle 1
+
+
+1. Procure Material for Dial Support Angle 1
+   - one piece of  5.5'' x 1'' x 1/2'' brass plate
+   - rough sawn on the band saw
+
+2. Mill Piece to Overall Dimensions 
+
+   Notes: 
+   - measure dimension with workpiece in vice 
+   - be sure operations result in mutually perpendicular edges
+   - be sure cutter is rotating in proper direction 
+   - do NOT run cutter into vise or parallels !!1
+   - use a file and filecard to deburr rough edges 
+   - always clean collet and spindle before mounting tool 
+
+
+   A. Mill ends to dimension 
+      - use a 3/4'' or 5/8'' endmill 
+      - spindle speed ~= 1200 RPM 
+      - maximum depth of cut = 0.025'' 
+      - position work in vise on parallels 
+      - remove parallels before machining
+      - feed by hand... slow, steady feed leaves a good finish 
+      - deburr when finished
+
+   B. Mill sides to dimension
+      - use a 3/4'' or 5/8'' endmill 
+      - spindle speed ~= 1200 RPM 
+      - position vise on parallels 
+      - remove paralled before machining 
+      - deburr when finished
+
+2. Mill Angled Side 
+   A. Mill angled side 
+      - use Dykem to mark .5'' side
+      - position piece in vise on 52.57 degree angled block
+      - use 3/4'' or 5/8'' end mill 
+      - spindle speed ~= to 1200 RPM 

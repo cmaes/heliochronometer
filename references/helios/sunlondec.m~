@@ -1,0 +1,41 @@
+% Astronomical Constants
+L0  = -77.11;   % Longitude of Perihelion
+e   = 0.01672;  % Numerical Eccentricity
+EPS = 23.44;    % Tilt of Ecliptic
+
+
+p = pi/180;
+eps = EPS*p;
+L  = 3*p*[-30:90];               % sun's True Longitude
+v  = L - L0*p;                   % True Anomaly
+c  = sqrt((1-e)/(1+e));          % c=tan(arcos(e)/2)
+E  = 2*atan(c*tan(v/2));         % Eccentric Anomaly
+zk = E-e*sin(E)-v;
+x  = [cos(L); 
+      sin(L)*cos(eps);
+      sin(L)*sin(eps)];
+r  = sqrt(x(1,:).^2+x(2,:).^2);
+al = atan2(x(2,:),x(1,:));       % Right Ascension
+d  = atan2(x(3,:),r);            % Declination
+zt = L-al;
+zg = atan(tan(zk+zt));           % Equation of Time
+
+plot(d/p,L/p);
+set(gca,'YTick',-90:30:270);
+xlabel('Declination [degrees]');
+ylabel('Ecliptical Longitude [degrees]');
+
+
+montheclon = [-80 -49 -19  12   41  71  99 129 159 188 219 249];
+monthlabel = {'Jan'  'Feb' 'Mar' 'Apr' 'May' 'Jun' 'Jul' 'Aug' 'Sep' 'Oct' 'Nov' 'Dec'};
+
+l = montheclon*p; 
+x = [cos(l); sin(l)*cos(eps); sin(l)*sin(eps)];
+r = sqrt(x(1,:).^2 + x(2,:).^2); 
+d = atan2(x(3,:),r); 
+
+for i=1:12
+    text(d(i)/p,l(i)/p,monthlabel(i))
+end 
+hold on
+plot(d/p,l/p,'.r')

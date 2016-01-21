@@ -1,0 +1,153 @@
+import graph;
+//size(200,200,IgnoreAspect);
+//unitsize(x=0.0700049347cm,y=0.260404181cm);
+
+real L0  = -77.11;          //Longitude of Perihelion
+real ecc = 0.01672;         //Numerical Eccentricty of Earth/Sun orbit 
+real EPS = 23.44;           //Tilt of Ecliptic
+real c; 
+
+real p = pi/180;
+real epsdeg = EPS*p;
+
+real L;
+real v;
+real c;
+real Ea;
+real zk;
+real x1;
+real x2;
+real x3;
+real r;
+real al;
+real[] d;
+real zt;
+real[] zg;
+real deg;
+real[] dd;
+for (int i=0; i<=360; ++i){
+  deg = -90 + i;
+  dd.push(deg);
+  L = deg*p;
+  v = L - L0*p;
+  c = sqrt((1-ecc)/(1+ecc)); 
+  Ea=2*atan(c*tan(v/2));
+  zk = Ea - ecc*sin(Ea)-v;
+  x1 = cos(L);
+  x2 = sin(L)*cos(epsdeg);
+  x3 = sin(L)*sin(epsdeg);
+  r = sqrt(x1*x1 + x2*x2);
+  al = atan2(x2,x1);
+  d.push(-atan2(x3,r)/p);
+  zt = L-al;
+  zg.push(atan(tan(zt+zk))/p*4);
+  
+}
+
+
+draw(graph(zg,d));
+
+// real[] solidzg;
+// real[] solidd;
+
+// for (int j=0; j<180; ++j){
+//   solidzg.push(zg[j]);
+//   solidd.push(d[j]);
+// }
+
+// real[] dashzg;
+// real[] dashdd;
+// for(int j=180;j<=360;++j){
+//   dashzg.push(zg[j]);
+//   dashdd.push(d[j]);
+// }
+// pen dashpen = dashed;
+
+// draw(graph(solidzg,solidd));
+// draw(graph(dashzg,dashdd),dashpen);
+
+
+pair Eot(real lon){
+  real L = lon*p;
+  real v = L - L0*p;
+  real c = sqrt((1-ecc)/(1+ecc)); 
+  real Ea=2*atan(c*tan(v/2));
+  real zk = Ea - ecc*sin(Ea)-v;
+  real x1 = cos(L);
+  real x2 = sin(L)*cos(epsdeg);
+  real x3 = sin(L)*sin(epsdeg);
+  real r = sqrt(x1*x1 + x2*x2);
+  real al = atan2(x2,x1);
+  real d = -atan2(x3,r)/p;
+  real zt = L-al;
+  real zg = atan(tan(zt+zk))/p*4;
+  return (zg,d);
+}
+
+string negatedeclination(real x){
+  // uncomment for no overlap
+  return "";
+//  if (-x == 18)
+//     return "";
+//  if (-x > 0)
+//     return format("\hspace{-0.8cm}$%g$",-x);
+//  return format("$%g$",-x);
+}
+
+
+pen axispen = fontsize(8pt);
+
+//xaxis("foo",BottomTop(),Ticks(Step=18.141578257845300,step=1.8141578257845300,pTick=.8blue,ptick=.5black,extend=true));
+//xaxis("Deviation $(^\circ)$",YEquals(-24),-5,5,LeftTicks(2,5));
+real[] majortickmarks = {-24, -21, -18, -15, -12, -9, -6, -3, 3,6,9,12,15, 18, 21, 24};
+real[] minortickmarks = { -23, -22, -19, -20, -17,-16, -14, -13,-11,-10, -8, -7, -5, -4, -2, -1, 1, 2, 4, 5, 7, 8, 10, 11, 13, 14, 16, 17, 19, 20, 22, 23};
+yaxis(XEquals(0),-24,24,axispen,Ticks(Label(axispen,align=E),negatedeclination,majortickmarks,minortickmarks));
+
+pen labelpen = fontsize(11pt);
+
+//dot(Eot(-80));
+label("Jan",Eot(-80),2*W,labelpen);
+
+//dot(Eot(-49));
+label("Feb",Eot(-49),W,labelpen);
+
+//dot(Eot(-19));
+label("Mar",Eot(-19),W,labelpen);
+
+//dot(Eot(12));
+label("Apr",Eot(12),W,labelpen);
+
+//dot(Eot(41));
+label("May",Eot(41),E,labelpen);
+
+//dot(Eot(71));
+label("Jun",Eot(71),E,labelpen);
+
+//dot(Eot(99));
+label("Jul",Eot(99),W,labelpen);
+
+//dot(Eot(129));
+label("Aug",Eot(129),W,labelpen);
+
+//dot(Eot(159));
+label("Sep",Eot(159),E,labelpen);
+
+//dot(Eot(188));
+label("Oct",Eot(188),E,labelpen);
+
+//dot(Eot(219));
+label("Nov",Eot(219),.5*E,labelpen);
+
+//dot(Eot(249));
+label("Dec",Eot(249),E,labelpen);
+
+pen equalspen = currentpen;
+yequals(0,equalspen);
+xequals(0,equalspen);
+
+//yequals(23.45);
+//yequals(-23.45);
+//xequals(5);
+
+
+
