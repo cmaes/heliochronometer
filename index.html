@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="author" content="Christopher Maes" />
+  <title>Heliochronometer</title>
+  <style type="text/css">
+    @import url(http://fonts.googleapis.com/css?family=PT+Serif|PT+Serif:b|PT+Serif:i|PT+Sans|PT+Sans:b);
+    body {
+      margin: auto;
+      max-width: 820px;
+      font-family: "PT Serif", serif;
+      font-size: 16px;
+    }
+    code{
+      white-space: pre;
+    }
+    #background1 {
+      //background-image: url(pilkington2.jpg);
+    }
+    #background2 {
+      //background: url(pilkingtondial.jpg) center top;
+    }
+    #helioquote {
+      margin: 2em;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1 class="title">The Heliochronometer</h1>
+    <h2 class="author">Christopher Maes</h2>
+    <h3 class="date">December 8th, 2008</h3>
+  </div>
+  <div id="background1">
+  <h2>The Heliochronometer</h2>
+  <ul>
+    <li><p>A <span><strong>heliochronometer</strong></span> is a
+    sundial that tells <span><strong>standard mean
+    time</strong></span> by computing a correction
+    from <span><strong>local real time</strong></span> via a
+    mechanical mechanism.</p>
+    </li>
+
+    <li><p>Standard mean time is the time we use in everyday life,
+    where all hours have the same length regardless of the
+    season. Regular sundials tell local real time which is determined
+    directly by the motion of the sun (when the sun is at its highest
+    it is noon in local real time).</p>
+    </li>
+
+    <li><p>The heliochronometer uses information such as the
+    observer’s latitude and longitude, the position of true north, as
+    well celestial mechanics and an astronomical formula
+    called <span><strong>the Equation of Time</strong></span> to
+    compute standard mean time.</p></li>
+  </ul>
+
+
+  <h2>History of the heliochronometer</h2>
+  <ul>
+    <li>
+      <p>The heliochronometer was invented by James Gibbs around
+        1906</p>
+      <img src="gibbspatentheader.png" width="600px"/>
+    </li>
+    <li>
+      <p>The heliochronometer solved the need to set mechanical
+        wristwatches all over England to Greenwich mean time</p>
+      <img src="gibbshelio.png" width="600px"/>
+    </li>
+    <li><p>Gibbs partnered with William Pilkington to produce the <span><strong>Pilkington &amp; Gibbs Heliochronometer</strong></span></p></li>
+    <li><p>Less than a thousand Heliochronometers were made, of which about fifty exist today</p></li>
+    <li><p>Original Heliochronometers are still accurate today, over a hundred years later</p></li>
+  </ul>
+
+  <h2>Why build a heliochronmeter today?</h2>
+  <p id="helioquote">The heliochronometer is an elegant mechanical device. It is
+  more than a simple machine. It is a device to mark the hours, an
+  optical instrument, and a mechanical computer. Embedded within the
+  heliochronometer is the motion of our plant around the sun. Its body
+  is aligned with the cardinal directions and its angles tuned to this
+  location. When you align the sight with the sun’s rays you begin to
+      understand the place you occupy in our solar system.</p>
+
+  <h2>The anatomy of the modern helichronometer</h2>
+  <img src="labeledhelio.png" width="600px"/>
+  </div>
+  <div id="background2">
+  <h2>How does the heliochronometer tell time?</h2>
+  <p>To compute standard mean time the heliochronometer makes use of
+    several pieces of information: the observer’s latitude, the hour angle
+    of the sun, the observer’s longitude, the direction of true north, the
+    month of the year, and the declination of the sun.</p>
+  <ul>
+    <li><p>To tell the time the heliochronometer needs to be able to
+    precisely located the sun within a reference coordinate
+    system</p></li>
+    <li>
+      <p>The heliochronometer uses the Equatorial coordinate
+        system. The sun is located via two angular
+        measurements <span class="math"><em>τ</em></span>
+        and <span class="math"><em>δ</em></span>
+      </p>
+      <ul>
+        <li><p>The hour angle <span class="math"><em>τ</em></span> is
+            the angle between the meridian and the star measured on
+            the equator</p>
+        </li>
+        <li><p>The declination <span class="math"><em>δ</em></span> is
+            the angular distance from the equator</p>
+          <img src="equatorial.png" width="400px">
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <p>The angle stands that support the dial have been manufactured
+    so that the dial lies in a plane parallel to the equator. The
+    angle <span class="math"><em>ω</em></span> is the colatitude
+    and <span class="math"><em>ϕ</em></span> is Palo Alto’s
+    latitude <span class="math">37.43<sup>∘</sup></span>.
+      </p>
+      <img src="latangle.jpg" width="300px">
+
+    </li>
+
+    <li>
+      <p>The base of the dial is rotated so that the angle stands are
+    aligned with the meridian. The smaller block faces toward north
+    and the larger block faces south.</p>
+
+      <img src="northsouthalignment.png" width="300px">
+    </li>
+
+    <li><p>When the sight is rotated so that the sun’s light travels
+    through the pinhole in the front sight and hits the center of the
+    back sight the pointer measures the
+    angle <span class="math"><em>τ</em></span></p>
+      <p><img src="dialcenter.png" alt="image" /></p>
+    </li>
+
+    <li><p>The angle <span class="math"><em>τ</em></span> is
+        proportional to the local real time</p>
+      <img src="tauangle.png" width="600px"/>
+    </li>
+
+    </ul>
+    </div>
+  <div id="background1">
+  <h2>Converting local real time to standard mean time</h2>
+  <h3>Longitude and Time Zones</h3>
+  <ul>
+    <li><p>The earth is divided into time zones each
+    approximately <span class="math">15<sup>∘</sup></span> degrees
+    of longitude wide</p></li>
+
+    <li><p>Under standard mean time the time within a time zone is
+    that of a reference meridian. For the Pacific Time Zone the
+    reference meridian is
+    at <span class="math">120<sup>∘</sup></span> W Longitude. Palo
+    Alto is at <span class="math">122<sup>∘</sup></span> W
+    Longitude.</p></li>
+
+    <li><p>From the perspective of an observer west of the reference
+        meridian the sun appears to be slow by four minutes per degree
+        of longitude</p>
+      <img src="longitude.png" width="600px"/>
+    </li>
+
+    <li><p>To adjust for this effect the dial is rotated by the
+    longitudinal offset from the reference meridian and locked into
+        place with the circumference screw</p>
+      <img src="circumferencescrew.png" width="600px"/>
+    </li>
+  </ul>
+
+  <h3>Daylight Savings Time</h3>
+  <ul>
+    <li><p>From March to November clocks are adjusted forward one hour
+    for Daylight Savings Time. To adjust for DST the dial is
+    rotated <span class="math">15<sup>∘</sup></span>. The longitudinal
+    offset is then based off the daylight savings time mark rather
+    than the standard time mark.</p></li>
+  </ul>
+
+  <h3>The Equation of Time</h3>
+  <ul>
+    <li><p>The Equation of Time is an astronomical formula for the
+        difference between local real time and standard mean time over
+        the course of the year</p></li>
+
+    <li><p>The difference is due to two effects: the eccentricity of
+    the Earth’s orbit and the obliquity of the Earth’s rotational
+    axis</p>
+      <img src="meansun.png" width="960px"/>
+    </li>
+  </ul>
+
+  <h3>The Analemma</h3>
+  <ul>
+    <li><p>The engraving on the back sight is a curve called
+    the <span><strong>analemma</strong></span> that adjusts for the
+    equation of time</p></li>
+
+    <li><p>The vertical axis is the sun’s negated
+    declination <span class="math">−<em>δ</em></span></p></li>
+
+    <li><p>The horizontal axis is the correction from local real to
+        standard time due to the equation of time</p>
+      <img src="analemmamayallblack.png" width="600px">
+    </li>
+
+    <li><p>To compute standard mean time rotate the sight so that the
+    beam of light is centered on the portion of the analemma
+        corresponding to the current month of the year</p>
+      <img src="solardot.jpg" width="300px"/>
+    </li>
+
+    <li><p>The analemma can also be seen by taking a picture of the
+        sun each day at noon over the course of a year</p>
+      <img src="analemmasun.jpg" width="300px"/>
+    </li>
+  </ul>
+
+  <h2>Design</h2>
+  <ul>
+    <li><p>The design of the heliochronometer is based entirely off
+    the 1906 and 1911 patents, a 1923 sundial construction treatise,
+    and pictures of similar bespoke heliochronometers made by two
+    modern craftsmen</p></li>
+
+    <li><p>A significant amount of the design work involved reverse
+    engineering these previous heliochronometers</p></li>
+
+    <li><p>The sights and pointer were designed using numerical
+    optimization. A nonlinear program with ten variables and ten
+    constraints was used to find a design that maximized the distance
+    between the two sights, subject to constraints imposed by the
+    analemma, the width of the pointer and the inner radius of the
+    dial.</p></li>
+
+    <li><p>A complete CAD model of the heliochronometer was
+        constructed including each of the eight hidden fasteners.</p>
+      <img src="assemblyscreenshot3.png" width="300px"/>
+      <img src="assemblyscreenshot4.png" width="300px"/>
+    </li>
+  </ul>
+
+  <h2>Manufacturing</h2>
+  <ul>
+    <li><p>Nine brass parts were manufactured on the milling machine,
+    rotary table and lathe: the dial plate, the dial support plate,
+    the tall latitude angle stand, the short latitude angle stand, the
+    front sight, the back sight, the pointer, the concentric rotation
+    half threaded rod, and the base plate</p></li>
+
+    <li><p>Two additional acrylic parts were constructed for
+    fixturing: a <span class="math">37.43<sup>∘</sup></span> angle
+    block for machining the latitude angle stands, and a alignment
+    plate for engraving the dial. These were made on the
+    LaserCAMM.</p></li>
+
+    <li><p>The most difficult parts to manufacture were the dial plate
+        and the hidden concentric rotation half-threaded rod</p></li>
+
+    <li><p>The dial plate was manufactured on the rotary table. It
+    took several session to machine and had to fixtured and centered
+        before each session</p>
+      <img src="dialrotarytable.jpg" width="600px"/>
+    </li>
+
+    <li><p>The half-threaded rod that enables concentric rotation of
+    the dial and sight was difficult to machine due to its small size
+        and its internal and external threads</p>
+      <img src="concentricrodcollet.jpg" width="600px"/>
+    </li>
+  </ul>
+
+  <h3>Engraving</h3>
+  <ul>
+    <li><p>The engravings on the dial and back sight were done by Tom
+        and Cathy Nyren of Tanner’s Engraving in San Jose</p></li>
+
+    <li><p>The nose cone of the CNC engraver rides on the surface of
+    the workpiece</p></li>
+
+    <li><p>The engraving tool extends .005” below the cone and into
+        the workpiece</p></li>
+  </ul>
+  <img src="engravinganalemma.jpg" width="300px"/>
+  <img src="engravingdial.jpg" width="300px"/>
+  </div>
+</body>
+</html>
